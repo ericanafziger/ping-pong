@@ -43,6 +43,7 @@ This application allows the user to enter a number. It then takes the number and
 ## Technologies Used
   * HTML
   * CSS
+  * JavaScript
   * Bootstrap
   * jQuery
 
