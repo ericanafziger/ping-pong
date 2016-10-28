@@ -45,6 +45,7 @@ This application allows the user to enter a number. It then takes the number and
   * CSS
   * Bootstrap
   * jQuery
+  
 ## Legal
   Copyright (c) 2016 Erica Nafziger All Rights Reserved.
   <enter> Licensed under the MIT license.
