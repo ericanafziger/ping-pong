@@ -57,5 +57,5 @@ $(document).ready(function(){
       scrollTop: $("#about").offset().top
     }, 800);
   });
-  
+
 });//end of document ready
