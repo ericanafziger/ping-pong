@@ -2,16 +2,16 @@ var pingPong = function(input){
   var array = [];
   for (var i = 1; i <= input; i++) {
     if (i % 15 === 0){
-      array.push("<li>ping-pong</li>");
+      array.push("ping-pong");
     } else if (i % 5 === 0) {
-      array.push("<li>pong</li>");
+      array.push("pong");
     } else if (i % 3 === 0) {
-      array.push("<li>ping</li>");
+      array.push("ping");
     } else {
-    array.push("<li>" +i + "</li>");
+    array.push(i);
     }
   }
-  var output = array.join("");
+  var output = array.join(" - ");
   return output;
 
 }//end of pingPong function
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
   var number = parseInt($("input#number").val());
   var result = pingPong(number);
-  $("#output").append(result);
+  $("#output").text(result);
   event.preventDefault();
   });
 });
