@@ -2,28 +2,29 @@ var pingPong = function(input){
   var array = [];
   for (var i = 1; i <= input; i++) {
     if (i % 15 === 0){
-      array.push("ping-pong");
+      array.push("<li>ping-pong</li>");
     } else if (i % 5 === 0) {
-      array.push("pong");
+      array.push("<li>pong</li>");
     } else if (i % 3 === 0) {
-      array.push("ping");
+      array.push("<li>ping</li>");
     } else {
-    array.push(i);
+    array.push("<li>" +i + "</li>");
     }
   }
-return array;
+  var output = array.join("");
+  return output;
 
 }//end of pingPong function
 
 
-
+//beginning of UI logic
 $(document).ready(function(){
 
   $("form#input").submit(function(event){
 
   var number = parseInt($("input#number").val());
   var result = pingPong(number);
-  $("#output").text(result);
+  $("#output").append(result);
   event.preventDefault();
   });
 });
