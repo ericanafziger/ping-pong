@@ -3,6 +3,14 @@ body {
   overflow: auto;
 
 }
+#page0 {
+  background-image: url(../img/black-white-background.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
 #page1 {
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -34,21 +42,24 @@ body {
   height: 300px;
   overflow: auto;
 }
-
 #navigation {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    position: fixed;
-  }
-
-  #navigation a {
+  margin-left: 10%;
+}
+#navigation a {
       color: black;
-    }
+}
 .nav-pills > li {
   background: rgba( 255, 255, 255, 0.6);
   width: 300px;
 }
-
+.top {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  position: fixed;
+  text-transform: uppercase;
+  text-align: center;
+}
 
 h1 {
   text-align: center;
