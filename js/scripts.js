@@ -27,15 +27,22 @@ $(document).ready(function(){
 
   var number = parseInt($("input#number").val());
   var result = pingPong(number);
-  // console.log(result.range(10));
-  // if (result.length <= 12) {
+  if (result.length > 0) {
   $("#output ul").html(result);
+  $("#input").removeClass("has-error");
+  $("#output").show();
+} else {
+  $("#input").effect("shake", { times:2 }).addClass("has-error");
+}
+
 // } else if (result.length > 12 && result.length <= 24) {
   // $("#output ul").html(result.range(12));
   // $("#output2 ul").html(result.range(13,24));
 //   $("#output2").show();
 // }
-  $("#output").show();
+// console.log(result.range(10));
+// if (result.length <= 12) {
+
   event.preventDefault();
   });
 });
