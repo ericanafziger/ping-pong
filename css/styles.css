@@ -48,6 +48,41 @@ body {
 #navigation a {
       color: black;
 }
+.welcome-container {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  width:30em;
+  height:16em;
+  margin-top: -8em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid white;
+  background-color: white;
+}
+.welcome-container h1 {
+  line-height: 3.5em;
+}
+.welcome-container2:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.welcome-container2 {
+  position: absolute;
+  top: 59.25%;
+  left: 50%;
+  width:30em;
+  height:8em;
+  margin-top: -8em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.welcome-container2 h3 {
+  text-align: center;
+  color: white;
+  line-height: 3em;
+}
+
 .nav-pills > li {
   background: rgba( 255, 255, 255, 0.6);
   width: 300px;
