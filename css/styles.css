@@ -96,18 +96,9 @@ body {
   text-align: center;
 }
 .left {
-  width: 30px;
+  width: 15px;
   height: 100%;
   float: left;
-  background-color: white;
-  position: fixed;
-  text-transform: uppercase;
-  text-align: center;
-}
-.right {
-  width: 30px;
-  height: 100%;
-  float: right;
   background-color: white;
   position: fixed;
   text-transform: uppercase;
