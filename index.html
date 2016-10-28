@@ -10,12 +10,20 @@
   <body>
     <div class="container">
       <h1 class="panel-heading panel-primary">Play Ping Pong!</h1>
+      <div class="well">
+        <h3>Rules</h3>
+        <ol>
+          <li>Numbers divisible by three will become ping.</li>
+          <li>Numbers divisible by five will become pong.</li>
+          <li>Numbers divisible by fifteen will become ping-pong.</li>
+        </ol>
+      </div>
       <form id="input">
         <div class="form-group">
           <label for="number">Enter a number here:</label>
           <input class="form-control" type="number" placeholder="your number" id="number">
         </div>
-        <button type="submit" class="btn btn-warning">Play Now!</button>
+        <center><button type="submit" class="btn btn-primary">Play Now!</button></center>
       </form>
       <br>
       <div id="output" class="well">
