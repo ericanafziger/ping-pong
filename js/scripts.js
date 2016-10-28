@@ -19,7 +19,6 @@ var pingPong = function(input){
 
 }//end of pingPong function
 
-
 //beginning of UI logic
 $(document).ready(function(){
 
@@ -27,8 +26,15 @@ $(document).ready(function(){
 
   var number = parseInt($("input#number").val());
   var result = pingPong(number);
-  // for (i=0; i < result.length; i += 2) {
+  // console.log(result.range(10));
+  // if (result.length <= 12) {
   $("#output ul").html(result);
+// } else if (result.length > 12 && result.length <= 24) {
+  // $("#output ul").html(result.range(12));
+  // $("#output2 ul").html(result.range(13,24));
+//   $("#output2").show();
+// }
+  $("#output").show();
   event.preventDefault();
   });
 });
