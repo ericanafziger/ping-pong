@@ -1,19 +1,29 @@
 body {
   font-family: 'Rubik', sans-serif;
+  overflow: auto;
+
 }
-#play {
+#page1 {
   background-image: url(../img/background.jpg);
   background-size: cover;
   -webkit-background-size: cover;
  -moz-background-size: cover;
   background-repeat: no-repeat;
-  min-height: 1000px;
+  height: 1000px;
+}
+#page2 {
+  background-image: url(../img/ping-pong-background.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-repeat: no-repeat;
+  height: 1050px;
 }
 #output, #output2 {
   display: none;
 }
 #output, h1 {
-  background: rgba(255, 255, 255, 0.6)
+  background: rgba(255, 255, 255, 0.6);
 }
 #output {
   -webkit-columns: 5 100px;
@@ -26,8 +36,19 @@ body {
 }
 
 #navigation {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: fixed;
+  }
+
+  #navigation a {
+      color: black;
+    }
+.nav-pills > li {
+  background: rgba( 255, 255, 255, 0.6);
+  width: 300px;
 }
+
 
 h1 {
   text-align: center;
@@ -37,6 +58,7 @@ h1 {
 .panel-heading {
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-top: 15%;
 }
 label {
   font-size: 1.5em;
