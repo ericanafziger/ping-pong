@@ -64,6 +64,7 @@ body {
 }
 .welcome-container2:hover {
   background: rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
 .welcome-container2 {
   position: absolute;

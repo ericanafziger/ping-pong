@@ -49,17 +49,17 @@ $(document).ready(function(){
 $(".welcome").click(function() {
     $('html, body').animate({
         scrollTop: $("#welcome").offset().top
-    }, 2000);
+    }, 800);
 });
 $(".play").click(function() {
     $('html, body').animate({
         scrollTop: $("#play").offset().top
-    }, 2000);
+    }, 800);
 });
 $(".about").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
-    }, 2000);
+    }, 800);
 });
 
   $("form#input").submit(function(event){
