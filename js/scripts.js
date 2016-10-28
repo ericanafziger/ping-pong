@@ -1,7 +1,13 @@
 var pingPong = function(input){
-return "yay";
-
-
+  var array = [];
+  for (var i = 1; i <= input; i++) {
+    if (i % 3 === 0){
+      array.push("ping");
+    } else {
+    array.push(i);
+    }
+  }
+return array;
 
 }//end of pingPong function
 
