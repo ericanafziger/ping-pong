@@ -22,6 +22,15 @@ var pingPong = function(input){
 //beginning of UI logic
 $(document).ready(function(){
 
+  $('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+  });
+
   $("form#input").submit(function(event){
 
   var number = parseInt($("input#number").val());
