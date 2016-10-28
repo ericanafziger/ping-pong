@@ -24,7 +24,9 @@ $(document).ready(function(){
 
   var number = parseInt($("input#number").val());
   var result = pingPong(number);
+  // for (i=0; i < result.length; i += 2) {
   $("#output ul").html(result);
+  // }
   // for (i = 0; i < result.length; i++) {
   //   $("#output").html("<li>"+result[i]+"</li>");
   // }
