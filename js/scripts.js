@@ -1,7 +1,7 @@
 //start of business logic
-var htmlResult = [];
 var pingPong = function(input){
   var array = [];
+  var htmlResult = [];
   for (var i = 1; i <= input; i++) {
     if (i % 15 === 0){
       array.push("ping-pong");
@@ -13,6 +13,9 @@ var pingPong = function(input){
     array.push(i.toString());
     }
   }
+  for (i=0; i < array.length; i++) {
+    htmlResult.push("<li>"+array[i]+"</li>")
+  }
   return htmlResult;
 
 }//end of pingPong function
@@ -21,11 +24,6 @@ var pingPong = function(input){
 
 //beginning of UI logic
 $(document).ready(function(){
-
-  //appends <li></li> to every item in the array
-  for (i=0; i < array.length; i++) {
-    htmlResult.push("<li>"+array[i]+"</li>")
-  }
 
   $("form#input").submit(function(event){
 
