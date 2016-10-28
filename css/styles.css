@@ -1,8 +1,60 @@
 body {
   font-family: 'Rubik', sans-serif;
   overflow: auto;
-
 }
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+.panel-heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 2em;
+}
+
+/*Navigation Styling*/
+.nav-pills > li {
+  background: rgba( 255, 255, 255, 0.6);
+  width: 300px;
+}
+.top, .left, .right, .bottom {
+  background-color: white;
+  position: fixed;
+}
+.top {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 999;
+}
+.left {
+  width: 15px;
+  height: 100%;
+  left: 0;
+}
+.right {
+  width: 15px;
+  height: 100%;
+  right: 0;
+}
+.bottom {
+  width: 100%;
+  height: 15px;
+  bottom: 0;
+}
+#navigation {
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+#navigation a {
+      color: black;
+}
+
+/*Welcome Section Styling*/
 #welcome {
   background-image: url(../img/black-white-background.jpg);
   background-position: center;
@@ -12,43 +64,7 @@ body {
   background-repeat: no-repeat;
   height: 1000px;
 }
-#play {
-  background-image: url(../img/background1.jpg);
-  background-size: cover;
-  -webkit-background-size: cover;
- -moz-background-size: cover;
-  background-repeat: no-repeat;
-  height: 1000px;
-}
-#about {
-  background-image: url(../img/ping-pong-background.jpg);
-  background-size: cover;
-  -webkit-background-size: cover;
- -moz-background-size: cover;
-  background-repeat: no-repeat;
-  height: 1000px;
-}
-#output, #output2 {
-  display: none;
-}
-#output, h1 {
-  background: rgba(255, 255, 255, 0.6);
-}
-#output {
-  -webkit-columns: 5 100px;
-  -moz-columns: 5 100px;
-  columns: 5 100px;
-  -moz-column-fill: auto;
-  column-fill: auto;
-  height: 300px;
-  overflow: auto;
-}
-#navigation {
-  margin-left: 10%;
-}
-#navigation a {
-      color: black;
-}
+
 .welcome-container {
   position: absolute;
   top: 25em;
@@ -85,47 +101,31 @@ body {
   line-height: 3em;
 }
 
-.nav-pills > li {
-  background: rgba( 255, 255, 255, 0.6);
-  width: 300px;
-}
-.top, .left, .right, .bottom {
-  background-color: white;
-  position: fixed;
-}
-.top {
-  width: 100%;
-  height: 40px;
-  text-transform: uppercase;
-  text-align: center;
-  z-index: 999;
-}
-.left {
-  width: 15px;
-  height: 100%;
-  left: 0;
-}
-.right {
-  width: 15px;
-  height: 100%;
-  right: 0;
-}
-.bottom {
-  width: 100%;
-  height: 15px;
-  bottom: 0;
+
+/*Play Section Styling*/
+#play {
+  background-image: url(../img/background1.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 4em;
-  text-transform: uppercase;
+#output, h1 {
+  background: rgba(255, 255, 255, 0.6);
 }
-.panel-heading {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 2em;
+#output {
+  display: none;
+  -webkit-columns: 5 100px;
+  -moz-columns: 5 100px;
+  columns: 5 100px;
+  -moz-column-fill: auto;
+  column-fill: auto;
+  height: 300px;
+  overflow: auto;
 }
+
 label {
   font-size: 1.5em;
   color: white;
@@ -147,4 +147,14 @@ input, label {
 .btn:active {
   border: none;
   border: 2px solid #286090;
+}
+
+/*About Section Styling*/
+#about {
+  background-image: url(../img/ping-pong-background.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
 }
