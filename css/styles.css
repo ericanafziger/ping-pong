@@ -17,7 +17,7 @@ body {
   -webkit-background-size: cover;
  -moz-background-size: cover;
   background-repeat: no-repeat;
-  height: 1050px;
+  height: 1000px;
 }
 #output, #output2 {
   display: none;

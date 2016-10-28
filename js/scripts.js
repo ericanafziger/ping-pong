@@ -19,17 +19,9 @@ var pingPong = function(input){
 
 }//end of pingPong function
 
+
 //beginning of UI logic
 $(document).ready(function(){
-
-  $('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-
-    return false;
-  });
 
   $("form#input").submit(function(event){
 
