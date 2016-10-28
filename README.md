@@ -29,9 +29,11 @@ This application allows the user to enter a number. It then takes the number and
   * **Example New Input: 3**
   * **Example New Return: 1,2,ping**
 * Application will return results as bullet points
-  * **Example Input: 5**
+  * **Example Input: 3**
   * **Example Return:**
-  * 1 * 2 * ping * 4 * pong
+    - 1
+    - 2
+    - ping
 
 ## Set Up
   * Clone this repository
