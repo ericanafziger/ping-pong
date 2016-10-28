@@ -11,7 +11,6 @@ var pingPong = function(input){
     array.push("<li>"+i+"</li>");
     }
   }
-  // debugger;
   var output = array.join("");
   return output;
 
@@ -25,13 +24,10 @@ $(document).ready(function(){
 
   var number = parseInt($("input#number").val());
   var result = pingPong(number);
-  $("#output").html(result);
+  $("#output ul").html(result);
   // for (i = 0; i < result.length; i++) {
   //   $("#output").html("<li>"+result[i]+"</li>");
   // }
-  // result.map(function(value) {
-  //   $("#output").append(value);
-  // });
   event.preventDefault();
   });
 });
