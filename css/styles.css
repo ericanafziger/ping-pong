@@ -65,7 +65,7 @@ h1 {
   height: 1000px;
 }
 
-.welcome-container {
+.welcome1 {
   position: absolute;
   top: 25em;
   left: 50%;
@@ -76,14 +76,14 @@ h1 {
   border: 1px solid white;
   background-color: white;
 }
-.welcome-container h1 {
+.welcome1 h1 {
   line-height: 3.5em;
 }
-.welcome-container2:hover {
+.welcome2:hover {
   background: rgba(255, 255, 255, 0);
   cursor: pointer;
 }
-.welcome-container2 {
+.welcome2 {
   position: absolute;
   top: 41em;
   left: 50%;
@@ -95,7 +95,7 @@ h1 {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.welcome-container2 h3 {
+.welcome2 h3 {
   text-align: center;
   color: white;
   line-height: 3em;
