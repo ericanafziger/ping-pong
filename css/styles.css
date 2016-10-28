@@ -3,7 +3,7 @@ body {
   overflow: auto;
 
 }
-#page0 {
+#welcome {
   background-image: url(../img/black-white-background.jpg);
   background-size: cover;
   -webkit-background-size: cover;
@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   height: 1000px;
 }
-#page1 {
+#play {
   background-image: url(../img/background1.jpg);
   background-size: cover;
   -webkit-background-size: cover;
@@ -19,7 +19,7 @@ body {
   background-repeat: no-repeat;
   height: 1000px;
 }
-#page2 {
+#about {
   background-image: url(../img/ping-pong-background.jpg);
   background-size: cover;
   -webkit-background-size: cover;
